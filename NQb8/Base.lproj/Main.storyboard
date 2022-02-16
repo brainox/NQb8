@@ -106,7 +106,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="ukX-GC-yFh"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -177,7 +177,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="Oc5-Xn-7go"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -221,18 +221,34 @@
                     <view key="view" contentMode="scaleToFill" id="gnM-4H-XdF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYt-iK-qhm">
+                                <rect key="frame" x="14.5" y="374" width="385" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="RPk-dn-BTO"/>
+                                    <constraint firstAttribute="width" constant="385" id="aeP-ph-CD8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Erd-4E-XGW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KYt-iK-qhm" firstAttribute="centerY" secondItem="gnM-4H-XdF" secondAttribute="centerY" id="aEZ-ZY-W92"/>
+                            <constraint firstItem="KYt-iK-qhm" firstAttribute="centerX" secondItem="gnM-4H-XdF" secondAttribute="centerX" id="dLN-R4-fh2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dhS-38-ihy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nB5-gU-o0Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3249" y="-155"/>
+            <point key="canvasLocation" x="3247.826086956522" y="-155.35714285714286"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gRa-73-L6X"/>
+        <segue reference="SL9-BG-6Bl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
