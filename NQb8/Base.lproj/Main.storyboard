@@ -190,6 +190,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                         <connections>
                                             <action selector="loginTapped:" destination="4lj-uK-cZ1" eventType="touchUpInside" id="hax-mW-u2X"/>
+                                            <segue destination="UGZ-4W-ibx" kind="show" identifier="LoginToWelcome" id="gRa-73-L6X"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -230,6 +231,9 @@
             <point key="canvasLocation" x="3249" y="-155"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gRa-73-L6X"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

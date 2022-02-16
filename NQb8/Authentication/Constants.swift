@@ -10,6 +10,6 @@ import Foundation
 struct K {
     static let appName = "NQB8"
     static let registerSegue = "RegisterToWelcome"
-    static let loginSegue = "LoginToWelcom"
+    static let loginSegue = "LoginToWelcome"
     
 }
