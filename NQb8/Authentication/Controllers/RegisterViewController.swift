@@ -19,6 +19,7 @@ class RegisterViewController: UIViewController {
                 if let error = error {
                     print(error.localizedDescription)
                 } else {
+                    print("succesfully signed up")
                     self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }

@@ -19,6 +19,7 @@ class LoginViewController: UIViewController {
                 if let error = error {
                     print("The error: \(error)")
                 } else {
+                    print("Successfully logged in")
                     self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
